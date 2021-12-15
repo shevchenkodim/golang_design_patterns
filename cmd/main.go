@@ -8,4 +8,7 @@ func main() {
 
 	// Generator
 	//generative.Generator(1, 100)
+
+	// Singleton
+	//generative.CheckSingleton()
 }
