@@ -1,8 +1,11 @@
 package main
 
-import "golang_design_patterns/structural"
+import "golang_design_patterns/generative"
 
 func main() {
 	// decorator
-	structural.SomeDecorator()
+	//structural.SomeDecorator()
+
+	// Generator
+	//generative.Generator(1, 100)
 }
