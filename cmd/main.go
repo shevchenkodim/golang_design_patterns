@@ -1,8 +1,13 @@
 package main
 
-import "golang_design_patterns/generative"
+import (
+	"fmt"
+	"runtime"
+)
 
 func main() {
+	fmt.Println("NumCPU => ", runtime.NumCPU())
+
 	// decorator
 	//structural.SomeDecorator()
 
